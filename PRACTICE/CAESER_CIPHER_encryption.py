@@ -1,4 +1,4 @@
-ALPHABET=" ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+ALPHABET="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 KEY=input("Enter the key for CAESAR CIPHER: \n")
 key=int(KEY)
 
@@ -13,4 +13,5 @@ def caesar_encryption(plain_text):
     return cipher_text
 
 plain_text=input("Enter the text to be encrypted : \n")
+print("The cipher text will be: \n")
 print(caesar_encryption(plain_text))
